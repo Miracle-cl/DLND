@@ -1,2 +1,2 @@
 # DLND
-## Projects of Machine Learning from Udacity
+## Projects of Deep Learning from Udacity
