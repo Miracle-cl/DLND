@@ -1,1 +1,1 @@
-#The First project : Create the first neural network.
+# The First project : Create the first neural network.
