@@ -12,4 +12,4 @@
 
 **Description**: Implement a recurrent neural network that performs sentiment analysis by tensorflow
 
-#### error: n_words = len(vocab_to_int) + 1
+**Error**: n_words = len(vocab_to_int) + 1
