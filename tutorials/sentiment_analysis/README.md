@@ -11,3 +11,5 @@
 ## 3.Sentiment_RNN:
 
 #### Implement a recurrent neural network that performs sentiment analysis by tensorflow
+
+#### error: n_words = len(vocab_to_int) + 1
