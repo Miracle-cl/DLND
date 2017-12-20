@@ -1,11 +1,11 @@
 ## 1.Sentiment_Classification_Projects:
 
-#### building a network for sentiment analysis on the movie review data by numpy
+**Description**: building a network for sentiment analysis on the movie review data by numpy
 
 
 ## 2.TFLearn_Sentiment_Analysis:
 
-#### building a network for sentiment analysis on the movie review data by tflearn
+building a network for sentiment analysis on the movie review data by tflearn
 
 
 ## 3.Sentiment_RNN:
