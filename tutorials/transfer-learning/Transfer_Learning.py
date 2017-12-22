@@ -374,6 +374,7 @@ labels_ = tf.placeholder(tf.int64, shape=[None, labels_vecs.shape[1]])
 # TODO: Classifier layers and operations
 
 # test accuracy 有偶然性
+# 可以多加几个全连接层，节点数衰减缓一点 -- 未测试
 
 # method 1
 fc = tf.layers.dense(inputs_, 256, activation=tf.nn.relu)
@@ -441,12 +442,8 @@ with tf.Session() as sess:
                   "Training loss: {:.5f}".format(loss))
             
             if iteration % 5 == 0:
-                val_acc = []
-                for x, y in get_batches(val_x, val_y):
-                    feed_dict = {inputs_: val_x, labels_: val_y}
-                    acc = sess.run(accuracy, feed_dict=feed_dict)
-                    val_acc.append(acc)
-                # print(val_acc)
+                feed_dict = {inputs_: val_x, labels_: val_y}
+                val_acc = sess.run(accuracy, feed_dict=feed_dict)
                 print("Validation Acc: {:.4f}".format(np.mean(val_acc)))
             iteration += 1
     
