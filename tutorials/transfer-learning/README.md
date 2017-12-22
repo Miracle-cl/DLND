@@ -4,4 +4,4 @@
 
 **Pretrained model**: Using VGGNet trained on the ImageNet dataset as a feature extractor
 
-**Dataset**:[Flower Photo](https://www.tensorflow.org/tutorials/image_retraining)
+**Dataset**:[Flower Photos](https://www.tensorflow.org/tutorials/image_retraining)
