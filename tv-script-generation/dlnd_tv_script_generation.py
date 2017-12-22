@@ -466,9 +466,9 @@ batch_size = 128
 # RNN Size
 rnn_size = 256
 # Embedding Dimension Size
-embed_dim = 100
+embed_dim = 100 # (32,64,128,256) advice 128, 256
 # Sequence Length
-seq_length = 15
+seq_length = 15 # length of sentence 15 - 20
 # Learning Rate
 learning_rate = 0.01
 # Show stats for every n number of batches
