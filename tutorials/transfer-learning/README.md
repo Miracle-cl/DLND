@@ -1,4 +1,4 @@
-## Trandfer learning
+## Transfer learning
 
 **Description**: Using VGGNet to classify images of flowers
 
