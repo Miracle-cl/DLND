@@ -2,4 +2,4 @@
 
 **DataSet**: a dataset of English and French sentences
 
-**Tools**: TensorFlow
+**Tools**: TensorFlow 1.1
