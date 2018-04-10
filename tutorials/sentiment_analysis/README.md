@@ -13,3 +13,13 @@
 **Description**: Implement a recurrent neural network that performs sentiment analysis by tensorflow
 
 **Error**: n_words = len(vocab_to_int) + 1
+
+
+# 4.Sentiment_LSTM_keras:
+
+**Description**: Implement a LSTM that performs sentiment analysis by keras
+
+
+# 5.Sentiment_LSTM_pytorch:
+
+**Description**: Implement a LSTM that performs sentiment analysis by pytorch
